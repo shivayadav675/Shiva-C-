@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int divisor,dividend,quotient,remainder;
+ dividend=76;
+ divisor=6;
+ quotient=dividend/divisor;
+ remainder=dividend % divisor;
+ cout<<"dividend is"<<dividend<<endl;
+ cout<<"divisor is"<<divisor<<endl;
+ cout<<"qoutient is"<<quotient<<endl;
+ cout<<"remainder is"<<remainder;
+
+    return 0;
+}
