@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+ float a,b,c ;
+ cout<<"enter three no";
+ cin>>a>>b>>c;
+ if (a>=b && a>=c)
+ cout<<"greter no is "<<a;
+ if (b>=a && b>=c)
+ cout<<"greter no is"<<c;
+ if (c>=a && c>=b)
+ cout<<"greter no is"<<c ;
+ 
+    return 0;
+}
