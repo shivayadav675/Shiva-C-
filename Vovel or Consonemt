@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+ char c='z';
+ if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+ cout<<"given no is vovel";
+ else 
+ cout<<" given no is consonent";
+    return 0;
+}
